@@ -24,7 +24,7 @@ int* indexesToVertexes(int n,int* indexes);
 
 int main(int argc, char const *argv[]) {
     // read input
-    char* fileName = "../input.txt";
+    char* fileName = "./input.txt";
     int n;
     int** adjacencyMatrix = readArray2D(fileName, &n);
     // end read input
